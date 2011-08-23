@@ -1,5 +1,16 @@
 <?php
 
+/*
+ *
+ * DirectAdmin Register Driver
+ *
+ * Driver to register new email accounts via DirectAdmin Control Panel
+ *
+ * @version 1.0
+ * @author Maciej Nowakowski <macnow@gmail.com>
+ *
+ */
+
 include("httpsocket.php");
 
 function da_api_connect($sock, $domain) {
